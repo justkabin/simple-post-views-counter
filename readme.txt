@@ -23,7 +23,7 @@ This plugin works on all posts and pages - no administrations necessary - easy i
 1. Download the file
 2. Upload and extract the contents of this file to your wp-content/plugins/folder
 3. Activate the Simple Post Views Counter in your WP-admin
-4. Add this code exactly as you see it to your themes single.php file:  <?php echo_views(get_the_ID()); ?> Total Views
+4. Add this code exactly as you see it to your themes single.php file:  `<?php echo_views(get_the_ID()); ?>` Total Views
 5. Please refer to the included images to see where exactly you need to paste the code.
 6. Done! Your posts will now have the total views included. (View included images)
 
@@ -54,7 +54,7 @@ REMEMBER to include the "Total Views" Text as given above.
 
 = How do I integrate the plugin into my posts? =
 
-Simply add the following piece of code to your theme's single.php file: <?php echo_views(get_the_ID()); ?> Total Views 
+Simply add the following piece of code to your theme's single.php file: `<?php echo_views(get_the_ID()); ?>` Total Views 
 (add this code exactly as you see it here and refer to the included images to see where exactly to paste the code). Remember to include the 'Total Views' text as well.
 
 __Notes__
@@ -78,6 +78,11 @@ optimization functions in a update.
 = Statistics =
 
 Should you need to "pull" view count statistics, please do so by using your Sql Db export. We are looking at extending this function in an update.
+
+
+= The Code Snippet to add to your Single.php file =
+
+`<?php echo_views(get_the_ID()); ?>` Total Views 
 
 
 == Feedback, Help, and Suggestions ==
