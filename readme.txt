@@ -9,13 +9,13 @@ Stable tag: 1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin will enable you to display how many times a post has been viewed. The hits/views are displayed in the posts entry meta. Please refer to the included readme file for proper install instructions and use.
+This plugin will enable you to display how many times a post has been viewed. The total views are displayed in entry meta of all posts.
 
 
 == Description ==
 
 This plugin counts and displays all hits/views in each post on your blog and saves it to the database. 
-Views are counted each time a page or post is requested/refreshed (unique and non-unique visitors).
+Views are counted each time a page or post is requested/refreshed (unique and non-unique visitors) and displayed in the posts entry meta.
 This plugin works on all posts and pages - no administrations necessary - easy installation.
 
 == Installation ==
