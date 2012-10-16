@@ -9,7 +9,7 @@ Stable tag: 1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin will enable you to display how many times a post has been viewed. Very simple plugin. Works on posts and pages.
+This plugin will enable you to display how many times a post has been viewed. The hits/views are displayed in the posts entry meta. Please refer to the included readme file for proper install instructions and use.
 
 
 == Description ==
