@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: post views, hits, counter, post, view, postviews, view counter, views, total, hits counter, hit
 Requires at least: 2.7
 Tested up to: 3.4.2
-Stable tag: trunk
+Stable tag: 1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,7 @@ This plugin will enable you to display how many times a post has been viewed. Ve
 
 This plugin counts and displays all hits/views in each post on your blog and saves it to the database. 
 Views are counted each time a page or post is requested/refreshed (unique and non-unique visitors).
-This plugin works on all posts and pages - no configuration necessary. No administration.
+This plugin works on all posts and pages - no administrations necessary - easy installation.
 
 == Installation ==
 
