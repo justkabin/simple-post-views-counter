@@ -1,11 +1,11 @@
 === Simple Post Views Counter ===
 
 Contributors: RS Publishing
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F2S8J25ZH2FT4
-Tags: post views, hits, counter, post, view, postviews, view counter, views, total, hits counter, hit
+Tags: post views, hits, counter, post, view, postviews, view counter, views, total, hits counter, hit, pageviews
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=39JEX9DQXCDJY
 Requires at least: 2.7
-Tested up to: 3.4.2
-Stable tag: 1.0
+Tested up to: 3.7.1
+Stable tag: 1.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -92,16 +92,24 @@ Do you need help installing getting this plugin to function correctly? Just post
 
 == Upgrade Notice ==
 
-None
+= Version 1.2 = 
 
 
 == Changelog ==
 
-None
-
 = Version 1.0 =
 
 First Release Version
+
+= 1.2 =
+
+* tested compatibility with v3.7.1
+* added blank index file to trunk (security)
+* included donation link
+* included temp banner
+* updated keywords
+* updated readme
+
 
 == Thumbs Up ==
 

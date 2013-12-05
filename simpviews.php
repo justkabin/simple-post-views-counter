@@ -3,7 +3,7 @@
   Plugin Name: Simple Post Views Counter
   Plugin URI: http://wordpress.org/extend/plugins/simple-post-views-counter/
   Description: This plugin will enable you to display how many times a post has been viewed. The hits/views are displayed in the posts entry meta. Please refer to the included readme file for proper install instructions and use.
-  Version: 1.0
+  Version: 1.2
   Author: RS Publishing
   License: GPLv2
  */
