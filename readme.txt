@@ -1,6 +1,6 @@
 === Simple Post Views Counter ===
 
-Contributors: RS Publishing
+Contributors: RSPublishing
 Tags: post views, hits, counter, post, view, postviews, view counter, views, total, hits counter, hit, pageviews
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=39JEX9DQXCDJY
 Requires at least: 2.7
@@ -106,6 +106,7 @@ First Release Version
 * tested compatibility with v3.7.1
 * added blank index file to trunk (security)
 * included donation link
+* corrected author name
 * included temp banner
 * updated keywords
 * updated readme
