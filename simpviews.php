@@ -1,15 +1,17 @@
 <?php
 /*
   Plugin Name: Simple Post Views Counter
-  Plugin URI: http://wordpress.org/extend/plugins/simple-post-views-counter/
+  Plugin URI: http://yooplugins.com/
   Description: This plugin will enable you to display how many times a post has been viewed. The hits/views are displayed in the posts entry meta. Please refer to the included readme file for proper install instructions and use.
-  Version: 1.2
-  Author: RS Publishing
-  License: GPLv2
+  Version: 1.3
+  Author: RSPublishing
+  Author URI: http://yooplugins.com/
+  License: GPLv2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
 /*
-  Copyright 2012  Rynaldo Stoltz  (email : rcstoltz@gmail.com)
+  Copyright 2012-2014  Rynaldo Stoltz  (email : support@yooplugins.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
