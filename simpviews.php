@@ -2,8 +2,8 @@
 /*
   Plugin Name: Simple Post Views Counter
   Plugin URI: http://yooplugins.com/
-  Description: This plugin will enable you to display how many times a post has been viewed. The hits/views are displayed in the posts entry meta. Please refer to the included readme file for proper install instructions and use.
-  Version: 1.3
+  Description: This plugin will enable you to display how many times a post has been viewed. The views are displayed in the entry meta of each post, globally troughout your site. Please refer to the included readme.txt file for proper installation instructions and usage.
+  Version: 1.5
   Author: RSPublishing
   Author URI: http://yooplugins.com/
   License: GPLv2 or later
@@ -11,7 +11,7 @@
  */
 
 /*
-  Copyright 2012-2014  Rynaldo Stoltz  (email : support@yooplugins.com)
+  Copyright 2014/2015  Rynaldo Stoltz  (email : rcstoltz@gmail.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -30,6 +30,35 @@
 
 register_activation_hook(__FILE__, spvco_install());
 Register_uninstall_hook(__FILE__, spvco_drop());
+
+ if(is_admin()) {
+	add_action('admin_menu', 'construct_menu');
+}
+
+function construct_menu() {
+	add_options_page('Simple Post Views Counter', 'Simple Post Views Counter', 'manage_options', 'wpspv_options', 'return_config');
+}
+
+function return_config() {
+	require_once('settings.php');
+}
+
+function wpspv_conf_link($links) {
+  $settings_link = '<a href="options-general.php?page=wpspv_options">Settings</a>';
+  array_unshift($links, $settings_link);
+  return $links;
+}
+
+$plugin = plugin_basename(__FILE__);
+add_filter("plugin_action_links_$plugin", 'wpspv_conf_link' );
+
+function rate_wpspv($links, $file) {
+	if ($file == plugin_basename(__FILE__)) {
+		$rate_url = 'http://wordpress.org/support/view/plugin-reviews/' . basename(dirname(__FILE__)) . '?rate=5#postform';
+		$links[] = '<a href="' . $rate_url . '" target="_blank" title="Click here to rate and review this plugin on WordPress.org">Rate this plugin</a>';
+	}
+	return $links;
+}
 
 function spvco_install() {
     global $wpdb;
