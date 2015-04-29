@@ -5,7 +5,7 @@ Tags: post views, hits, counter, post, view, postviews, view counter, views, tot
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=39JEX9DQXCDJY
 Requires at least: 2.7
 Tested up to: 4.1.2
-Stable tag: 1.5
+Stable tag: 1.5.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,7 +59,7 @@ Do you need help installing getting this plugin to function correctly? Would you
 
 == Upgrade Notice ==
 
-= Version 1.5 = 
+= Version 1.5.1 = 
 
 == Changelog ==
 
@@ -94,3 +94,7 @@ First Release Version
 * changed support email
 * general housekeeping
 * added icons
+
+= 1.5.1 =
+* fixed bug in uninstall hook that responsible for undefined offset error in debug log (typo)
+* added settings.php page (failed to load with last update)
