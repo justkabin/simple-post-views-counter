@@ -4,8 +4,8 @@ Contributors: RSPublishing
 Tags: post views, hits, counter, post, view, postviews, view counter, views, total, hits counter, hit counter, pageviews
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=39JEX9DQXCDJY
 Requires at least: 2.7
-Tested up to: 4.1.2
-Stable tag: 1.5.1
+Tested up to: 4.2.2
+Stable tag: 1.6
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,6 +15,10 @@ This plugin will enable you to display how many times a post has been viewed in 
 
 This plugin counts and displays all views in each post (globally throughout your site) and saves it to the database. 
 The views are counted each time a page or post is requested/refreshed (unique and non-unique visitors) and is displayed in the entry meta of each post.
+
+= About = 
+
+The Simple Post Views Counter plugin is maintained by [YOOPlugins.com](http://yooplugins.com/)
 
 == Installation ==
 
@@ -59,7 +63,7 @@ Do you need help installing getting this plugin to function correctly? Would you
 
 == Upgrade Notice ==
 
-= Version 1.5.1 = 
+= Version 1.6 = 
 
 == Changelog ==
 
@@ -98,3 +102,9 @@ First Release Version
 = 1.5.1 =
 * fixed bug in uninstall hook that responsible for undefined offset error in debug log (typo)
 * added settings.php page (failed to load with last update)
+
+= 1.6 =
+* tested compatibility with core 4.2.2
+* added banner and icon assets
+* updated version number
+* general housekeeping

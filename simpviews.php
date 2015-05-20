@@ -3,7 +3,7 @@
   Plugin Name: Simple Post Views Counter
   Plugin URI: http://yooplugins.com/
   Description: This plugin will enable you to display how many times a post has been viewed. The views are displayed in the entry meta of each post, globally troughout your site. Please refer to the included readme.txt file for proper installation instructions and usage.
-  Version: 1.5.1
+  Version: 1.6
   Author: RSPublishing
   Author URI: http://yooplugins.com/
   License: GPLv2 or later
